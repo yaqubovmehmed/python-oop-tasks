@@ -1,6 +1,6 @@
 # Python OOP Practice Tasks
 
-Small exercises from a Python backend course, focused on classes, inheritance, constructors, and calling parent methods with `super()`.
+A set of small exercises from a Python backend course, focused on classes, inheritance, constructors, and calling parent methods with `super()`.
 
 ## Exercises in `oop-task.py`
 
@@ -8,7 +8,7 @@ Small exercises from a Python backend course, focused on classes, inheritance, c
 2. **Transport** — a `Transport` parent class with electric car, supercar, and truck subclasses.
 3. **University** — university staff and student roles, followed by computer and furniture inventory objects.
 
-The examples are written in Uzbek and use only the Python standard library.
+Class and attribute names in the source are kept as written in the original Uzbek-language exercises. The project uses only the Python standard library.
 
 ## Run
 
@@ -16,7 +16,7 @@ The examples are written in Uzbek and use only the Python standard library.
 python oop-task.py
 ```
 
-The file currently defines the classes. To explore them, create an instance in a Python shell or add a small example under a `__main__` block.
+The file defines the classes but does not instantiate them, so running it produces no output. To explore the classes, create instances in a Python shell or add an example under a `__main__` block.
 
 ## Learning goals
 
@@ -25,4 +25,4 @@ The file currently defines the classes. To explore them, create an instance in a
 - Add fields and display methods in subclasses
 - Model related objects with simple class hierarchies
 
-This is a learning exercise rather than a production-ready inventory system.
+This is a learning exercise, not a production-ready inventory system.
